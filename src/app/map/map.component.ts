@@ -24,7 +24,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnInit(): void {}
 
   ngAfterViewInit() {
-    const initialState = { lng: 139.753, lat: 35.6844, zoom: 14 };
+    const initialState = { lng: 44.80162, lat: 41.69363, zoom: 12 };
 
     this.map = new Map({
       container: this.mapContainer.nativeElement,

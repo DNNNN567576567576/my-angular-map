@@ -1,11 +1,19 @@
 .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  padding: 0px;
-  background-color: black;
-  color: white;
+  padding: 0;
+  position: relative;
+  background-color: rgb(254, 254, 254);
+  height: 10vh;
 }
 
-.heading > h1 {
-  padding: 20px;
-  margin: 0;
+.heading > a > img {
+  width: 32px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
 }
