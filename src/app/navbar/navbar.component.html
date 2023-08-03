@@ -10,19 +10,15 @@
             <h1>JustMapGE</h1>
         </a>
     </div>
+
     <div class="search-bar">
-        <i class="fas fa-search search-icon"></i>
-        <input type="text" placeholder="Search...">
+        <input type="text" placeholder="Search..." (keydown.enter)="search()">
+        <a href="/">
+            <i class="fas fa-search search-icon"></i>
+        </a>
     </div>
-    <div class="some-btns">
-        <a href="/">About Us</a>
-    </div>
-    <div class="wrap">
-        <div class="search">
-            <input type="text" class="searchTerm" placeholder="What place are you looking for?">
-            <button type="submit" class="searchButton">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </div>
+
+    <div class="some-btn">
+        <button routerLink="/about-page">About Us</button>
     </div>
 </div>
