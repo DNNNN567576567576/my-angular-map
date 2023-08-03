@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -14,11 +13,5 @@ export class NavbarComponent {
     console.log('Searching for:', searchTerm);
 
     window.location.reload();
-  }
-
-  constructor(private router: Router) {}
-
-  goToAboutPage() {
-    this.router.navigateByUrl('/about');
   }
 }
