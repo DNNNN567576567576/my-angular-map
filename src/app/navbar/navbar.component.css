@@ -52,7 +52,7 @@ a {
   color: #504d4d;
 }
 
-.some-btn > button {
+.some-btn > a > button {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: large;
@@ -62,7 +62,7 @@ a {
   cursor: pointer;
 }
 
-.some-btn > button:hover {
+.some-btn > a > button:hover {
   transform: scale(1.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0);
 }
